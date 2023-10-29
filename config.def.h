@@ -7,9 +7,9 @@ static const int transparency = 255;
 struct clr_scheme schemes[] = {
 {
   /* colors */
-  .bg = {.bgra = {15, 15, 15, transparency}},
-  .fg = {.bgra = {45, 45, 45, transparency}},
-  .high = {.bgra = {100, 100, 100, transparency}},
+  .bg = {.bgra = {46, 52, 64, transparency}},
+  .fg = {.bgra = {236, 239, 244, transparency}},
+  .high = {.bgra = {191, 97, 106, transparency}},
   .swipe = {.bgra = {100, 255, 100, 64}},
   .text = {.color = UINT32_MAX},
   .font = DEFAULT_FONT,
